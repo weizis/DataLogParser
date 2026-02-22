@@ -55,6 +55,7 @@ Timestamp,SensorId,Value
 - С запятой: 23,5 (русский формат)
 
 ## Пример вывода
+```text
 Data Log Parser
 Reading: data.csv
 Records found: 5
@@ -70,7 +71,7 @@ Records found: 5
      Avg: 23.67 | Min: 23.50 | Max: 23.80 | Count: 3
    A2:
      Avg: 19.35 | Min: 19.20 | Max: 19.50 | Count: 2
-
+```
 ## Тестирование
 Проект покрыт модульными тестами MSTest:
 - Парсинг корректных данных
